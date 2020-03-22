@@ -1,0 +1,35 @@
+.content{
+  height:635px;
+  background-image: url(../img/login/login-bg.jpg);
+  background-repeat:no-repeat;
+	background-position:50% 50%;
+	background-size:auto 100%;
+	position: relative;
+}
+.content>div{
+	width: 340px;
+	height: 408px;
+	padding: 40px 50px;
+	position: absolute;
+	right: 54px;
+	top:78px;
+	background: #fff;
+}
+
+.footer-bottom{
+	width: 100%;
+	padding: 50px 0 0;
+	color: #565657;
+	font: 12px/1.5 PingFangSC-Regular,"Microsoft YaHei","\5b8b\4f53",arial,helvetica,sans-serif,tahoma;
+}
+.footer-bottom>p{
+	line-height: 14px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.footer-bottom>p:nth-child(2){
+	margin-bottom: 0;
+}
+.footer-bottom>p>img{
+	vertical-align: bottom;
+}
