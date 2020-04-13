@@ -1,9 +1,29 @@
+<<<<<<< HEAD
 .content{
   height:635px;
+=======
+<<<<<<< HEAD
+.subject{
+	height:635px;
+=======
+.content{
+  height:635px;
+>>>>>>> dfaf9622a3d63f1cc06ed8f1944e744ee2f24eb9
+>>>>>>> 4月13日基础页面完成
   background-image: url(../img/login/login-bg.jpg);
   background-repeat:no-repeat;
 	background-position:50% 50%;
 	background-size:auto 100%;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+}
+.content{
+	width: 1240px;
+	margin: 0 auto;
+=======
+>>>>>>> dfaf9622a3d63f1cc06ed8f1944e744ee2f24eb9
+>>>>>>> 4月13日基础页面完成
 	position: relative;
 }
 .content>div{
@@ -15,6 +35,40 @@
 	top:78px;
 	background: #fff;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.tab li{
+	float: left; list-style: none;
+}
+.tab li a{
+  display:inline-block;
+  text-decoration:none;
+  width: 80px; height: 40px;
+	line-height: 40px;
+	text-align: center;
+  color:#000;
+}
+#container{
+	position: relative;
+}
+#content1,#content2{
+	width: 300px;
+	height: 100px;
+	padding:30px;
+	position: absolute;
+	top: 40px;
+	left: 0;
+}
+.tab li:first-child,#content1{
+	background-color: #fff;
+}
+.tab li:first-child+li,#content2{
+	background-color: #fff;
+}
+=======
+>>>>>>> dfaf9622a3d63f1cc06ed8f1944e744ee2f24eb9
+>>>>>>> 4月13日基础页面完成
 
 .footer-bottom{
 	width: 100%;
@@ -32,4 +86,12 @@
 }
 .footer-bottom>p>img{
 	vertical-align: bottom;
+<<<<<<< HEAD
 }
+=======
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> dfaf9622a3d63f1cc06ed8f1944e744ee2f24eb9
+>>>>>>> 4月13日基础页面完成

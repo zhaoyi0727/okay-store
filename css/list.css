@@ -1,3 +1,21 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.subject{
+	background: #f5f5f5;
+	padding-bottom: 20px;
+	background-image:url(../img/list/list-bg.jpg);
+	background-repeat: no-repeat;
+	background-position:top center; 
+	background-size:auto 420px;
+	padding: 0 74px 40px;
+}
+.content{
+	width: 1240px;
+	margin: 0 auto;
+}
+=======
+>>>>>>> 4月13日基础页面完成
 header{
 	background:#fff;
 }
@@ -14,6 +32,10 @@ header{
 	background-size:auto 100%;
 	padding: 0 74px 40px;
 }
+<<<<<<< HEAD
+=======
+>>>>>>> dfaf9622a3d63f1cc06ed8f1944e744ee2f24eb9
+>>>>>>> 4月13日基础页面完成
 .content>div>p:first-child{
 	padding-top: 50px;
 	font-size: 40px;

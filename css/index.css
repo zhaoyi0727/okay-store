@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+		.content{
+			width: 1240px;
+			margin:0 auto;
+		}
+=======
+>>>>>>> dfaf9622a3d63f1cc06ed8f1944e744ee2f24eb9
+>>>>>>> 4月13日基础页面完成
 		.banner{
 			height:600px;
 			background-image:url('../img/index/banner.jpg');
@@ -6,7 +16,15 @@
 			background-size:auto 100%;
 		}
 		.header{
+<<<<<<< HEAD
 			width:1240px;height:40px;
+=======
+<<<<<<< HEAD
+			height:40px;
+=======
+			width:1240px;height:40px;
+>>>>>>> dfaf9622a3d63f1cc06ed8f1944e744ee2f24eb9
+>>>>>>> 4月13日基础页面完成
 			padding:21px 0;
 		}
 		.header-left>img{
@@ -15,6 +33,18 @@
 			cursor:pointer;
 		}
 		.mid{
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+			background:#fafafa;
+			padding: 50px;
+		}
+		.carousel{
+			background: #fff;
+			display: flex;
+			padding: 50px 50px 50px 0;
+=======
+>>>>>>> 4月13日基础页面完成
 			width:1250px;height:620px;
 			background:#fafafa;
 			padding:50px;
@@ -23,16 +53,34 @@
 			width:1240px;height: 620px;
 			background: #fff;
 			display: flex;
+<<<<<<< HEAD
+=======
+>>>>>>> dfaf9622a3d63f1cc06ed8f1944e744ee2f24eb9
+>>>>>>> 4月13日基础页面完成
 		}
 		.carousel:hover{
 			box-shadow: 0px 0px 15px 10px #d8d8d8;
 		}
 		.desc{
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+			flex:0 0 45%;
+			background:#fff;
+		}
+		.carousel>div:nth-child(2)>img{
+			width: 520px;
+=======
+>>>>>>> 4月13日基础页面完成
 			flex:0 0 50%;
 			background:#fff;
 		}
 		.carousel>img{
 			width: 620px;height: 620px;
+<<<<<<< HEAD
+=======
+>>>>>>> dfaf9622a3d63f1cc06ed8f1944e744ee2f24eb9
+>>>>>>> 4月13日基础页面完成
 		}
 		.desc>ul{
 			list-style:none;
@@ -83,6 +131,17 @@
     	color: #fff;
     	background-color: #1B88EE;
 		}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+		.bottom{
+			background-color: #fff;	
+			width: 1240px;
+			margin:0 auto;
+		}
+=======
+>>>>>>> dfaf9622a3d63f1cc06ed8f1944e744ee2f24eb9
+>>>>>>> 4月13日基础页面完成
 		.division>div:first-child{
 			padding: 65px 50px;
 		}
@@ -97,7 +156,15 @@
 			width: 1240px;
 			display: flex;
 			flex-wrap:wrap;
+<<<<<<< HEAD
 			padding: 0 50px;
+=======
+<<<<<<< HEAD
+			padding: 0 50px 0 0;
+=======
+			padding: 0 50px;
+>>>>>>> dfaf9622a3d63f1cc06ed8f1944e744ee2f24eb9
+>>>>>>> 4月13日基础页面完成
 		}
 		.division>ul>li{
 			display: flex;
@@ -112,7 +179,15 @@
 			transition: transform .2s;
 		}
 		.division>ul>li>a:hover{
+<<<<<<< HEAD
 		transform: scale(1.05);
+=======
+<<<<<<< HEAD
+			transform: scale(1.05);
+=======
+		transform: scale(1.05);
+>>>>>>> dfaf9622a3d63f1cc06ed8f1944e744ee2f24eb9
+>>>>>>> 4月13日基础页面完成
 		}
 		.division>ul>li:nth-child(2)>a:first-child,.division>ul>li:nth-child(2)>a:nth-child(3){
 			margin-right: 30px;

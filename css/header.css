@@ -3,9 +3,25 @@ a{
 	color: #666;
 	font-size: 16px;
 }
+<<<<<<< HEAD
 .container>div{
 	background: #fff;
 	padding: 13px 47px;
+=======
+<<<<<<< HEAD
+.container{
+	width: 1240px;
+	margin: 0 auto;
+	padding: 13px 47px;
+}
+.container>div{
+	background: #fff;
+=======
+.container>div{
+	background: #fff;
+	padding: 13px 47px;
+>>>>>>> dfaf9622a3d63f1cc06ed8f1944e744ee2f24eb9
+>>>>>>> 4月13日基础页面完成
 }
 .container>div>a>img{
 	width: 243px;
