@@ -1,9 +1,13 @@
-.content{
-  height:635px;
+.subject{
+	height:635px;
   background-image: url(../img/login/login-bg.jpg);
   background-repeat:no-repeat;
 	background-position:50% 50%;
 	background-size:auto 100%;
+}
+.content{
+	width: 1240px;
+	margin: 0 auto;
 	position: relative;
 }
 .content>div{
@@ -14,6 +18,34 @@
 	right: 54px;
 	top:78px;
 	background: #fff;
+}
+.tab li{
+	float: left; list-style: none;
+}
+.tab li a{
+  display:inline-block;
+  text-decoration:none;
+  width: 80px; height: 40px;
+	line-height: 40px;
+	text-align: center;
+  color:#000;
+}
+#container{
+	position: relative;
+}
+#content1,#content2{
+	width: 300px;
+	height: 100px;
+	padding:30px;
+	position: absolute;
+	top: 40px;
+	left: 0;
+}
+.tab li:first-child,#content1{
+	background-color: #fff;
+}
+.tab li:first-child+li,#content2{
+	background-color: #fff;
 }
 
 .footer-bottom{

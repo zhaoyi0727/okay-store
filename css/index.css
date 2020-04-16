@@ -1,3 +1,7 @@
+		.content{
+			width: 1240px;
+			margin:0 auto;
+		}
 		.banner{
 			height:600px;
 			background-image:url('../img/index/banner.jpg');
@@ -6,7 +10,7 @@
 			background-size:auto 100%;
 		}
 		.header{
-			width:1240px;height:40px;
+			height:40px;
 			padding:21px 0;
 		}
 		.header-left>img{
@@ -15,24 +19,23 @@
 			cursor:pointer;
 		}
 		.mid{
-			width:1250px;height:620px;
 			background:#fafafa;
-			padding:50px;
+			padding: 50px;
 		}
 		.carousel{
-			width:1240px;height: 620px;
 			background: #fff;
 			display: flex;
+			padding: 50px 50px 50px 0;
 		}
 		.carousel:hover{
 			box-shadow: 0px 0px 15px 10px #d8d8d8;
 		}
 		.desc{
-			flex:0 0 50%;
+			flex:0 0 45%;
 			background:#fff;
 		}
-		.carousel>img{
-			width: 620px;height: 620px;
+		.carousel>div:nth-child(2)>img{
+			width: 520px;
 		}
 		.desc>ul{
 			list-style:none;
@@ -83,6 +86,11 @@
     	color: #fff;
     	background-color: #1B88EE;
 		}
+		.bottom{
+			background-color: #fff;	
+			width: 1240px;
+			margin:0 auto;
+		}
 		.division>div:first-child{
 			padding: 65px 50px;
 		}
@@ -97,7 +105,7 @@
 			width: 1240px;
 			display: flex;
 			flex-wrap:wrap;
-			padding: 0 50px;
+			padding: 0 50px 0 0;
 		}
 		.division>ul>li{
 			display: flex;
@@ -112,7 +120,7 @@
 			transition: transform .2s;
 		}
 		.division>ul>li>a:hover{
-		transform: scale(1.05);
+			transform: scale(1.05);
 		}
 		.division>ul>li:nth-child(2)>a:first-child,.division>ul>li:nth-child(2)>a:nth-child(3){
 			margin-right: 30px;

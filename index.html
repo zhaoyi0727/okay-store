@@ -1,13 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>OK商城</title>
 	<link rel="stylesheet" type="text/css" href="css/comm.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
-	<div class="content">
+	<div class="subject">
 		<div class="banner">
 			<div class="header">
 				<div class="header-left">
@@ -18,6 +20,7 @@
 			</div>
 		</div>
 		<div class="mid">
+		<div class="content">	
 		<div class="carousel">
 			<div class="desc">
 				<ul>		
@@ -36,9 +39,11 @@
 					<a href="#">了解详情</a>
 			</div>
 			</div>
-			<img src="img/index/computer-white.jpg">
-		</div>		
-		</div>
+			<div><img src="img/index/computer-white.jpg"></div>
+		</div>	
+	</div>	
+</div>
+		<div class="bottom">
 		<div class="division">
 			<div>
 			<p>配件专区</p>
@@ -62,9 +67,49 @@
 				</li>			
 			</ul>
 		</div>
+	</div>	
+	<div class="wt-nav-side">
+		<ul class="nav-list">
+			<li class="nav-item-phone">
+					<div class="item-phone-wrap fr">
+							<div class="item-left">400-996-0175</div>
+							<div class="item-right"><img src="img/comm/phone.png"></div>
+					</div>
+			</a>
+			</li>
+			<li class="nav-item-service">
+				<a href="javascript:okayOpenService()">
+						<div class="item-phone-wrap fr">
+								<div class="item-left">在线客服</div>
+								<div class="item-right"><img src="img/comm/inline.png"></div>
+						</div>
+				</a>
+			</li>
+			<li class="nav-item-cart">
+			<a href="/user#/cart" target="_blank">
+					<div class="item-phone-wrap fr">
+							<div class="item-left">购物车</div>
+							<div class="item-right"><img src="img/comm/cart.png"></div>
+					</div>
+			</a>
+			</li>
+			<li class="nav-item-qrcode">
+			<a href="https://jzapp.okjiaoyu.cn/plusapi/pages/downappc" target="_blank">
+					<div class="item-left"><img src="/img/comm/okay-app.png"></div>
+					<div class="item-right"><img src="img/comm/iphone.png" ></div>
+			</a>
+			</li>
+			<li id="nav-item-top" style="display:none;">
+				<a href="#" title="返回顶部">
+					<div class="item-right"><img src="img/comm/up.png"></div>
+				</a>
+		</li>
+		</ul>
 	</div>
+</div>
 	<footer>
 		<iframe src="footer.html" scrolling="no" class="footer"></iframe>
 	</footer>
+	<script src="js/comm.js"></script>
 </body>
 </html>

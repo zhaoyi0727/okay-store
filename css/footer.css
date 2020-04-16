@@ -1,10 +1,13 @@
-.footer-content{	
+.subject{
 	background: #2D2E34;
+}
+.footer-content{
+	width: 1240px;	
+	margin:0 auto;
 	font-size: 12px;
 	color: #fff;
 }
 .footer-top{
-	margin: 0 auto;
 	padding: 90px 60px 0;
 	display: flex;
 }
