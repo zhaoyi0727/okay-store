@@ -18,11 +18,128 @@
 			margin-left:60px;
 			cursor:pointer;
 		}
+		.header-right{
+			width: 380px;
+			height: 38px;
+		}
+		.fr{
+			float: right;
+		}
+		.wt-head-menu{
+			position: absolute;
+			right: 80px;
+		}
+		.wt-menu-btn{
+			background-color: transparent;
+			color: #fff;
+			border: 1px solid #fff ;
+			width: 145px;
+   	 	font-size: 14px;
+    	line-height: 34px;
+    	height: 34px;
+			margin-top: 2px;
+			padding: 8px 33px;
+			border-radius: 20px;
+			margin-left: 15px;
+		}
+		.wt-menu-btn>img{
+			margin-right: 10px;
+		}
+		.wt-menu-btn:hover{
+			background: #fff;
+			color: #1B88EE;
+		}
+		.wt-head-menu>div>img{
+			display: inline-block;
+			width: 160px;
+			height: 160px;
+		}
+		.wt-head-menu>a:first-child{
+			position: relative;
+		}
+		.wt-head-menu>div{
+			position: absolute;
+			right:170px;
+			top: 60px;
+			max-height: 580px;
+			overflow: auto;
+			background-color: #fff;
+			width: 375px;
+			min-height: 197px;
+			text-align: center;
+			margin: 0 auto;
+			padding-top: 38px;
+			display: none;
+		}
+		.cart-list-empty>p{
+			font-size: 18px;
+			line-height: 20px;
+			margin: 20px 0 30px;
+			color: #1B88EE;
+			text-align: center;
+			padding-bottom: 30px;
+			}	
+		/* 轮播图 */
 		.mid{
+			position: relative;
 			background:#fafafa;
 			padding: 50px;
+			overflow: hidden;
 		}
+		.content{
+			display: flex;
+			overflow: hidden;	
+			transition:all .5s linear;
+		}
+		.content1{
+			display: flex;
+			overflow: hidden;	
+		}
+		#ul-idxs{
+      width:100px;
+      margin:0 auto;
+      position:absolute;
+      bottom:70px;
+      left:50%;
+      margin-left:-50px;
+    }
+    #ul-idxs>li{
+      float:left;
+      width:10px; height:10px;
+      background-color: #9E9E9E;;
+      border-radius:5px;
+      margin:0 5px;
+      cursor:pointer;
+		}
+		#ul-idxs>li.active{
+      background-color:#1B88EE;;
+		}
+		#btn-left,#btn-right{
+      width:66px;
+			height:66px;
+			background-color: #000;
+			border-radius: 50%;
+      position:absolute;
+      top:370px;
+      background-repeat:no-repeat;
+      background-position:center;
+			cursor:pointer;
+			opacity: .2;
+    }
+    #btn-left{
+      left:35px;
+      background-image:url('../img/index/arrow-left.png');
+    }
+    #btn-right{
+      right:80px;
+      background-image:url('../img/index/arrow-right.png');
+    }
+    #btn-left:hover,#btn-right:hover{
+			opacity: .4;
+    }
 		.carousel{
+			width: 1240px;
+			height: 624px;
 			background: #fff;
 			display: flex;
 			padding: 50px 50px 50px 0;
@@ -38,7 +155,6 @@
 			width: 520px;
 		}
 		.desc>ul{
-			list-style:none;
 			margin:75px 75px 0;
 		}
 		li>h2{
@@ -53,7 +169,8 @@
 			line-height: 25px;
 		}
 		.box{
-			width: 466px;height:129px;
+			width: 466px;
+			height:169px;
 			background:#fbfbfc;
 			margin:110px 42px 0;
 			padding:38px 35px; 
@@ -86,6 +203,7 @@
     	color: #fff;
     	background-color: #1B88EE;
 		}
+		/* 轮播图 */
 		.bottom{
 			background-color: #fff;	
 			width: 1240px;
@@ -137,7 +255,6 @@
 		.division>ul>li:last-child>a>img{
 			width: 815px;
 		}
-
 		
 
 
